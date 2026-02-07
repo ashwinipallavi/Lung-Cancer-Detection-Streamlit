@@ -1,68 +1,96 @@
-# Lung Cancer Detection using Machine Learning
+# 🫁 Lung Cancer Detection using Machine Learning & Streamlit
 
-- If lung cancer is found at an earlier stage, when it is small and before it has spread, it is more likely to be treated successfully. Lung cancer screening is recommended for certain people who smoke or used to smoke, but who don't have any signs or symptoms. If a person has lung cancer but doesn't have any symptoms, this usually means there's a chance to detect the disease early.
+Early detection of lung cancer significantly increases the chances of successful treatment. This project focuses on detecting lung cancer at an early stage using **machine learning and computer vision techniques** applied to medical images such as **CT scans**.
 
-- Lung Cancer Detection using Machine Learning and Computer Vision is a project that aims to develop a system that can automatically detect the presence of lung cancer in medical images of the lungs, such as X-rays or CT scans, using advanced algorithms and techniques from the fields of machine learning and computer vision. The system will be trained on a large dataset of annotated medical images and will use various image processing techniques to extract relevant features and patterns from the images. 
+The system uses a **Convolutional Neural Network (CNN)** to analyze lung images and predict whether cancer is present. A **Streamlit web application** is built on top of the model to provide an easy-to-use and interactive interface.
 
-- The output of the system will be a prediction of whether or not lung cancer is present in the image, which can be used to assist medical professionals in making accurate and timely diagnoses. The project involves the use of state-of-the-art machine learning algorithms, such as convolutional neural networks (CNNs), and advanced image processing techniques, such as edge detection, segmentation, and feature extraction.
+---
 
-- Check out the live Deployment at - [Streamlit Deployment](https://vedantkadam-lung-cancer-streamlit-app-le67uq.streamlit.app/) 
-## How to Run this Project
+## 🚀 Features
+- Upload lung CT scan images
+- Automatic lung cancer prediction
+- Deep learning–based CNN model
+- Interactive and user-friendly Streamlit UI
+- Fast and reliable inference
 
-## Tech Stacks Used
+---
 
+## 🧠 Technologies Used
 - Python
-- Streamlit API
-- Tensorflow , Keras API
-- Numpy , Pandas , Seaborn
+- TensorFlow / Keras
+- Streamlit
+- NumPy
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn
 
-## How to run this Project
-```
-git clone URL
-```
-```
-cd LungCancerDetection
-```
+---
 
-- Install modules if not available using following commands
-```
-pip install -r requirements.txt
-```
+## 🌐 Live Demo
+🔗 **Streamlit Deployment**  
+https://vedantkadam-lung-cancer-streamlit-app-le67uq.streamlit.app/
 
-- Run the app.py file
-```
-streamlit run app.py
-```
+---
 
-- Note- Sometimes models as well as csv file might not be detected due to environment related issue it is recommended that you install Anaconda and create a seperate environment by the name 'tf' install required modules.
-Then run the following commands-
-```
-activate conda tf
-cd LungCancerDetection
-streamlit run app.py
-
-```
+## 📂 Project Structure
+```text
+Lung-Cancer-Detection-Streamlit/
+│
+├── app.py
+├── requirements.txt
+├── cnn model/
+│   └── lungcancer_model_cnn.h5
+├── assets/
+├── README.md
 
 
-## Architecture
-<p align="center">
-  <a href="/">
-    <img src="https://user-images.githubusercontent.com/83024561/219716865-f5bb045e-781d-4281-ae13-b86fcaab911a.png"
-         alt="csi_logo" width="800" height="400">
-  </a>
-</p>
+▶️ How to Run the Project Locally
+1️⃣ Clone the repository
+git clone https://github.com/ashwinipallavi/Lung-Cancer-Detection-Streamlit.git
+cd Lung-Cancer-Detection-Streamlit
 
-## Project Demo
+2️⃣ Install dependencies
+python -m pip install -r requirements.txt
+
+3️⃣ Run the Streamlit application
+python -m streamlit run app.py
+
+
+Open your browser and visit:
+
+http://localhost:8501
+
+⚠️ Common Issues & Fixes
+Streamlit command not found
+python -m streamlit run app.py
+
+NumPy / SciPy compatibility error
+python -m pip install numpy==1.26.4 scipy==1.11.4
+
+🏗️ Project Architecture
+<p align="center"> <img src="https://user-images.githubusercontent.com/83024561/219716865-f5bb045e-781d-4281-ae13-b86fcaab911a.png" width="800" height="400"> </p>
+🎥 Project Demo
 
 https://user-images.githubusercontent.com/83024561/217852039-1365ed15-9963-4cac-b19b-fe7be9ff5794.mp4
 
+📌 Disclaimer
 
+This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
 
+👩‍💻 Author
 
+Pallavi S E
+GitHub: https://github.com/ashwinipallavi
 
+⭐ If you like this project
 
+Give it a star ⭐ — it really helps!
 
+---
 
-
-
-
+### ✅ What to do next
+```bash
+git add README.md
+git commit -m "Update README with project documentation"
+git push
