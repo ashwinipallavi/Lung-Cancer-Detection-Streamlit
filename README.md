@@ -7,23 +7,23 @@ The system uses a **Convolutional Neural Network (CNN)** to analyze lung images 
 ---
 
 ## 🚀 Features
-- Upload lung CT scan images
-- Automatic lung cancer prediction
-- Deep learning–based CNN model
-- Interactive and user-friendly Streamlit UI
-- Fast and reliable inference
+- Upload lung CT scan images  
+- Automatic lung cancer prediction  
+- Deep learning–based CNN model  
+- Interactive and user-friendly Streamlit UI  
+- Fast and reliable inference  
 
 ---
 
 ## 🧠 Technologies Used
-- Python
-- TensorFlow / Keras
-- Streamlit
-- NumPy
-- Pandas
-- Seaborn
-- Matplotlib
-- Scikit-learn
+- Python  
+- TensorFlow / Keras  
+- Streamlit  
+- NumPy  
+- Pandas  
+- Seaborn  
+- Matplotlib  
+- Scikit-learn  
 
 ---
 
@@ -42,55 +42,4 @@ Lung-Cancer-Detection-Streamlit/
 ├── cnn model/
 │   └── lungcancer_model_cnn.h5
 ├── assets/
-├── README.md
-
-
-▶️ How to Run the Project Locally
-1️⃣ Clone the repository
-git clone https://github.com/ashwinipallavi/Lung-Cancer-Detection-Streamlit.git
-cd Lung-Cancer-Detection-Streamlit
-
-2️⃣ Install dependencies
-python -m pip install -r requirements.txt
-
-3️⃣ Run the Streamlit application
-python -m streamlit run app.py
-
-
-Open your browser and visit:
-
-http://localhost:8501
-
-⚠️ Common Issues & Fixes
-Streamlit command not found
-python -m streamlit run app.py
-
-NumPy / SciPy compatibility error
-python -m pip install numpy==1.26.4 scipy==1.11.4
-
-🏗️ Project Architecture
-<p align="center"> <img src="https://user-images.githubusercontent.com/83024561/219716865-f5bb045e-781d-4281-ae13-b86fcaab911a.png" width="800" height="400"> </p>
-🎥 Project Demo
-
-https://user-images.githubusercontent.com/83024561/217852039-1365ed15-9963-4cac-b19b-fe7be9ff5794.mp4
-
-📌 Disclaimer
-
-This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
-
-👩‍💻 Author
-
-Pallavi S E
-GitHub: https://github.com/ashwinipallavi
-
-⭐ If you like this project
-
-Give it a star ⭐ — it really helps!
-
----
-
-### ✅ What to do next
-```bash
-git add README.md
-git commit -m "Update README with project documentation"
-git push
+└── README.md
