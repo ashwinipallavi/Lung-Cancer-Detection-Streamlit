@@ -60,7 +60,14 @@ python -m pip install numpy==1.26.4 scipy==1.11.4
 <p align="center"> <img src="https://user-images.githubusercontent.com/83024561/219716865-f5bb045e-781d-4281-ae13-b86fcaab911a.png" width="800"> </p>
 🎥 Project Demo
 
-https://user-images.githubusercontent.com/83024561/217852039-1365ed15-9963-4cac-b19b-fe7be9ff5794.mp4
+<img width="1773" height="935" alt="Screenshot 2026-02-07 141448" src="https://github.com/user-attachments/assets/2ebd0d3c-7c45-44a5-a260-f1a883dac8f7" />
+
+<img width="1672" height="730" alt="Screenshot 2026-02-07 141506" src="https://github.com/user-attachments/assets/92999454-cbbb-44f9-9dd8-c375baec02bb" />
+
+<img width="1689" height="830" alt="Screenshot 2026-02-07 141553" src="https://github.com/user-attachments/assets/27d2e11d-b125-4575-9c77-49c7cb71f6a4" />
+
+
+
 
 ##📌 Disclaimer
 
