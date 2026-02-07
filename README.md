@@ -29,7 +29,7 @@ The system uses a **Convolutional Neural Network (CNN)** to analyze lung images 
 
 ## 🌐 Live Demo
 🔗 **Streamlit Deployment**  
-https://vedantkadam-lung-cancer-streamlit-app-le67uq.streamlit.app/
+
 
 ---
 
